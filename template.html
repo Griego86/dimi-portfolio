@@ -1,0 +1,36 @@
+<!-- Basic template for any website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="./script//main.js" defer="defer"></script>
+  <title>Dimi Athanasopoulos </title>
+</head>
+<body>
+  <div class="flex flex-col min-h-screen">
+    <header class="sticky top-0 z-50 bg-white">
+      <div class="flex justify-between">
+        <a class="py-2 px-2 text-lg font-bold" href="">Home</a>
+        <button id="hamburger-menu" class="py-2 px-2 text-lg font-bold">&#8801;</button>
+      </div>
+      <nav id="main-nav">
+        <ul class="text-center font-bold">
+          <li class="py-2"><a  href="">Home</a></li>
+          <li class="py-2"><a href="">About</a></li>
+          <li class="py-2"><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="flex-1">
+      <h1 class="text-2xl text-center">Dimi Athanasopoulos</h1>
+    </main>
+    <footer>
+      <p class="text-center py-2">Copyright &copy;2024 Dimitrios Athanasopoulos</p>
+    </footer>
+  </div>
+</body>
+</html>
